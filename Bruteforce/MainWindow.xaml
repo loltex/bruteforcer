@@ -1,0 +1,19 @@
+﻿<Window x:Class="Bruteforce.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bruteforce"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Crack it!" Margin="286,100,284,224" Click="Button_Click" FontWeight="Bold" FontSize="24"/>
+        <Label Content="Enter your password:" Margin="0,10,0,332" FontSize="24" HorizontalAlignment="Center"/>
+        <PasswordBox x:Name="PasswordBox1" Margin="182,53,182,339"/>
+        <Label Content="Cracked password:" Margin="108,230,0,112" FontSize="24" HorizontalAlignment="Left"/>
+        <Label Content="Time spent:" Margin="535,230,0,112" FontSize="24" HorizontalAlignment="Left"/>
+        <TextBox x:Name="TextBox1" TextWrapping="Wrap" Margin="51,273,436,119" IsEnabled="False"/>
+        <TextBox x:Name="TextBox2" TextWrapping="Wrap" Margin="444,273,43,119" IsEnabled="False"/>
+
+    </Grid>
+</Window>
